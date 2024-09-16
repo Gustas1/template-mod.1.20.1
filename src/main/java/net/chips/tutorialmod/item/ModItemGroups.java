@@ -1,6 +1,7 @@
 package net.chips.tutorialmod.item;
 
 import net.chips.tutorialmod.TutorialMod;
+import net.chips.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,7 +16,9 @@ public class ModItemGroups {
                     FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                             .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                                 entries.add(new ItemStack(ModItems.RAW_RUBY));
+                                entries.add(new ItemStack(ModBlocks.RAW_RUBY_BLOCK));
                                 entries.add(new ItemStack(ModItems.RUBY));
+                                entries.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                             }).build());
 
     public static void registerItemGroups() {
