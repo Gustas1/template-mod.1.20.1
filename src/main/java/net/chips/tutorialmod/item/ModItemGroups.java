@@ -3,7 +3,6 @@ package net.chips.tutorialmod.item;
 import net.chips.tutorialmod.TutorialMod;
 import net.chips.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -25,6 +24,7 @@ public class ModItemGroups {
                                 entries.add(new ItemStack(ModItems.RUBY));
                                 entries.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                                 entries.add(new ItemStack(ModItems.METAL_DETECTOR));
+                                entries.add(new ItemStack(ModBlocks.SOUND_BLOCK));
                             }).build());
 
     public static void registerItemGroups() {

@@ -10,6 +10,8 @@
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
   "block.tutorialmod.ruby_block": "Ruby Block",
 
+  "block.tutorialmod.sound_block": "Sound Block",
+
   "item.tutorialmod.metal_detector": "Metal Detector",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
