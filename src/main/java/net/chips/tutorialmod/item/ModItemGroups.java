@@ -25,6 +25,7 @@ public class ModItemGroups {
                                 entries.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                                 entries.add(new ItemStack(ModItems.METAL_DETECTOR));
                                 entries.add(new ItemStack(ModBlocks.SOUND_BLOCK));
+                                entries.add(new ItemStack(ModItems.TOMATO));
                             }).build());
 
     public static void registerItemGroups() {
