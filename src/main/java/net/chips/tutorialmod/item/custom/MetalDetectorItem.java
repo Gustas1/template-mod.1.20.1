@@ -62,4 +62,10 @@ public class MetalDetectorItem extends Item {
         tooltip.add(Text.translatable("tooltip.tutorialmod.metal_detector.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.tutorialmod.metal_detector.tooltip"));
+        super.appendTooltip(stack, world, tooltip, context);
+    }
 }
