@@ -18,5 +18,7 @@
 
   "item.tutorialmod.metal_detector": "Metal Detector",
 
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuable ores",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
